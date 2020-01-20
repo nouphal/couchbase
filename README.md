@@ -27,3 +27,6 @@ This tool also provides an option to run the query from terminal using mvn comma
 Eg: mvn exec:java -Dexec.args=" -f 'name,country' -c 'name = \"Excel Airways\" OR name = \"Texas Wings\"' "
 
 **Sample Query Result :** https://github.com/nouphal/couchbase/blob/master/couchbaseproject/InputOutput/QueryResult1.png
+
+**Retry Mechanism:**
+This tool supports retry mechanism wheen there's a temporary failure. It retries 3 times if Couchbase returns failure status with error code 11.
