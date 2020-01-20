@@ -29,4 +29,4 @@ Eg: mvn exec:java -Dexec.args=" -f 'name,country' -c 'name = \"Excel Airways\" O
 **Sample Query Result :** https://github.com/nouphal/couchbase/blob/master/couchbaseproject/InputOutput/QueryResult1.png
 
 **Retry Mechanism:**
-This tool supports retry mechanism wheen there's a temporary failure. It retries 3 times if Couchbase returns failure status with error code 11.
+This tool supports retry mechanism when there's a temporary failure. It retries 3 times if Couchbase returns failure status with error code 11.
