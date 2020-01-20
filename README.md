@@ -1,5 +1,5 @@
 # couchbase
-Couchbase Query Tool
+**Couchbase Query Tool**
 
 What’s Couchbase Query Tool?
 
