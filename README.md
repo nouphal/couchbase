@@ -14,11 +14,11 @@ Step 2: Run as Java Application(QueryService.java), by default this tool will fe
 **Run Query Tool with Command Line Parameters:**
 
 Option 1: -f option, it can be used to specify required fields(Eg: name, id etc). to be displayed as query output.
-Please refer the screen shot for sample input.
+Please refer the screenshot for sample input.
 https://github.com/nouphal/couchbase/blob/master/couchbaseproject/InputOutput/CommandLineInput.png
 
 Option 2: -c option, it can be used to provide specific conditions for the query retrieval (Eg : where id=xxx and name =’ken’). 
-Please refer the screen shot for sample input.
+Please refer the screenshot for sample input.
 https://github.com/nouphal/couchbase/blob/master/couchbaseproject/InputOutput/CommandLineInput.png
 
 **Additional Option: Run query using maven command:**
